@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../app.js");
+const app = require("../app");
 
 describe("test user sign up", () => {
   it("can sign up as new user", async () => {
