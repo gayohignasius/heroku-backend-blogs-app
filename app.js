@@ -10,6 +10,10 @@ const port = process.env.PROD_PORT || process.env.DEV_PORT;
 const swaggerUI = require("swagger-ui-express");
 const swaggerDoc = require("./src/config/swagger");
 
+app.get("/", (req, res) => {
+  return res.send("Hello world!");
+});
+
 app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDoc));
 app.use(express.json());
 app.use(cors());
