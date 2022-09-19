@@ -1,4 +1,4 @@
-const userService = require("./user.service");
+const request = require("supertest");
 
 describe("test user sign up", () => {
   it("can sign up as new user", async () => {

@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "jest": "^29.0.3",
-    "sequelize-cli": "^6.4.1"
+    "sequelize-cli": "^6.4.1",
+    "supertest": "^6.2.4"
   }
 }
