@@ -14,11 +14,17 @@
     }
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "ltskeeisjqdzsq",
+    "password": "4be90fb4ca6c651fd5b614d5b7463e7335dcb4f076ed1daef23dc303c3a1a5e5",
+    "database": "de4psn495940ou",
+    "host": "ec2-34-194-40-194.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
     "username": "ltskeeisjqdzsq",
