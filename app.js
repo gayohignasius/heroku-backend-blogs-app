@@ -5,7 +5,7 @@ const authRouter = require("./src/auth/auth.route");
 const postRouter = require("./src/post/post.route");
 const userRouter = require("./src/user/user.route");
 const app = express();
-const port = process.env.PROD_PORT || process.env.DEV_PORT;
+const port = process.env.PROD_PORT || 5000;
 
 const swaggerUI = require("swagger-ui-express");
 const swaggerDoc = require("./src/config/swagger");
