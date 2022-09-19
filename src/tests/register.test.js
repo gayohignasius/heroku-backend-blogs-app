@@ -1,9 +1,9 @@
 const request = require("supertest");
-const user = require("./user.route");
+const app = require("../app.js");
 
 describe("test user sign up", () => {
   it("can sign up as new user", async () => {
-    const res = await request(user)
+    const res = await request(app)
       .post(`${process.env.URL}/api/registration`)
       .send({
         fullName: "Ignasius Gayoh",
