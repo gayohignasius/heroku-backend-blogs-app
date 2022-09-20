@@ -8,10 +8,6 @@ const postController = require("./post.controller");
 const corsOption = require("../middleware/corsOption");
 const postRouter = express.Router();
 
-app.get("/", (req, res) => {
-  return res.send("Hello world!");
-});
-
 /**
  * @swagger
  * /api/v1/posts:
